@@ -1,4 +1,71 @@
-<!-- ABOUT section and photography images updated -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lokesh Somapuram — Scrum Master & Agile Coach</title>
+
+  <link rel="icon" href="profile.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar container-mid">
+    <div class="brand">
+      <div class="logo">Lokesh Somapuram</div>
+      <div class="role">Scrum Master & Agile Coach</div>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#photography">Photography</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-bg-shapes" aria-hidden="true">
+    <span class="shape s1"></span>
+    <span class="shape s2"></span>
+    <span class="shape s3"></span>
+  </div>
+
+  <div class="container-mid hero-inner">
+    <div class="hero-text fade-up">
+      <h1>Lokesh Somapuram</h1>
+      <p class="subtitle">Certified ScrumMaster & Agile Coach — helping product teams deliver faster and increase quality.</p>
+      <div class="hero-cta">
+        <a href="Lokesh Somapuram SM.pdf" class="btn primary" target="_blank" rel="noopener">Download Resume</a>
+        <a href="#contact" class="btn ghost">Contact</a>
+      </div>
+      <div class="quick-info">
+        <span>📧 <a href="mailto:lokesh.somapuram@gmail.com">lokesh.somapuram@gmail.com</a></span>
+        <span>🔗 <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank" rel="noopener">LinkedIn</a></span>
+      </div>
+    </div>
+
+    <div class="hero-photo fade-up">
+      <img src="profile.jpg" alt="Lokesh Somapuram profile photo">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
 <section id="about" class="section container-mid fade-up">
   <h2>About</h2>
   <div class="glass about-grid">
@@ -24,6 +91,54 @@
   </div>
 </section>
 
+<!-- SKILLS -->
+<section id="skills" class="section container-mid fade-up">
+  <h2>Skills</h2>
+  <div class="grid skills-grid">
+    <div class="glass card">
+      <h3>Agile & Leadership</h3>
+      <ul>
+        <li>Scrum ceremonies & facilitation</li>
+        <li>Agile transformation & coaching</li>
+        <li>Team mentoring & conflict resolution</li>
+      </ul>
+    </div>
+    <div class="glass card">
+      <h3>Tools & Platforms</h3>
+      <ul>
+        <li>Jira / Confluence / Miro</li>
+        <li>ReadyAPI / Postman</li>
+        <li>Azure DevOps</li>
+      </ul>
+    </div>
+    <div class="glass card">
+      <h3>Analysis & QA</h3>
+      <ul>
+        <li>Requirement analysis & user stories</li>
+        <li>Test case design & execution</li>
+        <li>Process improvement & metrics</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section container-mid fade-up">
+  <h2>Projects & Experience</h2>
+
+  <div class="projects-grid">
+    <!-- Project cards remain unchanged (same as your existing) -->
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section container-mid fade-up">
+  <h2>Certifications</h2>
+  <div class="grid certifications-grid">
+    <!-- Certifications remain unchanged -->
+  </div>
+</section>
+
 <!-- PHOTOGRAPHY -->
 <section id="photography" class="section container-mid fade-up">
   <h2>Photography</h2>
@@ -42,3 +157,29 @@
     <img class="photo modal-trigger rotated" src="Venkatapuram (In Between Way To Srisailam).jpg" alt="Photo 10">
   </div>
 </section>
+
+<!-- CONTACT -->
+<section id="contact" class="section container-mid fade-up">
+  <h2>Contact</h2>
+  <div class="glass contact-card">
+    <p>Email: <a href="mailto:lokesh.somapuram@gmail.com">lokesh.somapuram@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank" rel="noopener">linkedin.com/in/somapuram-lokesh-99a29b218</a></p>
+    <p>GitHub: <a href="https://github.com/Somapuram-Lokesh" target="_blank" rel="noopener">github.com/Somapuram-Lokesh</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container-mid">
+    <small>© 2025 Lokesh Somapuram • Built with care</small>
+    <button id="topBtn" title="Go to top" aria-label="Scroll to top">↑</button>
+  </div>
+</footer>
+
+<!-- Photo Modal -->
+<div id="modal" class="modal" aria-hidden="true">
+  <span class="close" role="button" aria-label="Close">&times;</span>
+  <img class="modal-content" id="modal-img" alt="">
+</div>
+
+</body>
+</html>
