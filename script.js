@@ -1,8 +1,8 @@
-document.getElementById("theme-toggle").addEventListener("click", () => {
-  document.body.classList.toggle("light");
-  if (document.body.classList.contains("light")) {
-    document.getElementById("theme-toggle").textContent = "🌙";
-  } else {
-    document.getElementById("theme-toggle").textContent = "☀️";
-  }
+// Smooth Scroll for nav links
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', function(e){
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+    });
 });
