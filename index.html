@@ -1,117 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lokesh Somapuram Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lokesh Somapuram — Scrum Master & Agile Coach</title>
+
+  <link rel="icon" href="profile.jpg">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 <body>
 
-<!-- Header -->
-<header>
-  <div class="container">
-    <img src="profile.jpg" alt="Lokesh Somapuram" class="profile-pic">
-    <h1>Lokesh Somapuram</h1>
-    <p>Business Analyst | Scrum Master | Agile Coach</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Somapuram-Lokesh/lokesh-portfolio" target="_blank">GitHub</a>
-      <a href="mailto:lokesh.somapuram@gmail.com">Email</a>
+<header class="site-header">
+  <nav class="navbar container-mid">
+    <div class="brand">
+      <div class="logo">Lokesh Somapuram</div>
+      <div class="role">Scrum Master & Agile Coach</div>
     </div>
-    <a href="Lokesh Somapuram SM.pdf" class="btn primary" target="_blank" rel="noopener">Download Resume</a>
-  </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#photography">Photography</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 </header>
 
-<!-- About -->
-<section id="about" class="fade-in">
-  <div class="container about-grid">
-    <div class="about-left">
-      <p>Certified ScrumMaster® and aspiring Agile Coach with nearly 8 years of progressive experience driving Scrum and SAFe implementations in insurance and technology. Expert at facilitating end-to-end Agile ceremonies, coaching cross-functional teams to high performance, and partnering with Product Owners to refine vision and backlogs. Proven track record of improving sprint predictability by 25%, reducing cycle time by 30%, and embedding continuous improvement mindsets across distributed teams.</p>
-      <p>Key Skills & Certifications: CSM, FLMI Level 1 (LOMA), LOMA 281, LOMA 291, LOMA 302</p>
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-bg-shapes" aria-hidden="true">
+    <span class="shape s1"></span>
+    <span class="shape s2"></span>
+    <span class="shape s3"></span>
+  </div>
+
+  <div class="container-mid hero-inner">
+    <div class="hero-text fade-up">
+      <h1>Lokesh Somapuram</h1>
+      <p class="subtitle">Certified ScrumMaster & Agile Coach — helping product teams deliver faster and increase quality.</p>
+      <div class="hero-cta">
+        <a href="Lokesh_Somapuran_Resume.pdf" class="btn primary" target="_blank" rel="noopener">Download Resume</a>
+        <a href="#contact" class="btn ghost">Contact</a>
+      </div>
+      <div class="quick-info">
+        <span>📧 <a href="mailto:lokesh.somapuram@gmail.com">lokesh.somapuram@gmail.com</a></span>
+        <span>🔗 <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank" rel="noopener">LinkedIn</a></span>
+      </div>
     </div>
+
+    <div class="hero-photo fade-up">
+      <img src="profile.jpg" alt="Lokesh Somapuram profile photo">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section container-mid fade-up">
+  <h2>About</h2>
+  <div class="glass about-grid">
+    <div class="about-left">
+      <p>Certified ScrumMaster® and aspiring Agile Coach with nearly 6 years of progressive experience driving Scrum and SAFe implementations in insurance and technology. Expert at facilitating end-to-end Agile ceremonies, coaching cross-functional teams to high performance, and partnering with Product Owners to refine vision and backlogs. Proven track record of improving sprint predictability by 25%, reducing cycle time by 30%, and embedding continuous improvement mindsets across distributed teams..</p>
+
+      <div class="cert-badges">
+        <a class="badge link-badge" href="https://bcert.me/smmkvlhch" target="_blank" rel="noopener">CSM</a>
+        <a class="badge link-badge" href="https://verify.loma.org/badge/145940DFC6A94B8BAA48DE96F088944E" target="_blank" rel="noopener">FLMI Level 1 (LOMA)</a>
+        <span class="badge">LOMA 281 - Meeting Customer Needs with Insurance and Annuities (3rd Ed)</span>
+        <span class="badge">LOMA 291 - Improving the Bottom Line: Insurance Company Operations (2nd Ed)</span>
+        <span class="badge">LOMA 302 - The Policy Lifecycle: Insurance Administration</span>
+      </div>
+    </div>
+
     <div class="about-right">
       <ul class="highlights">
-        <li>Scrum & SAFe Implementation Expert</li>
-        <li>Cross-Functional Team Coaching</li>
-        <li>Agile Ceremonies Facilitation</li>
-        <li>Process Optimization & Continuous Improvement</li>
-        <li>Insurance & Technology Domain Experience</li>
+        <li><strong>Experience</strong><span>5 years 7 months</span></li>
+        <li><strong>Current</strong><span>Business Analyst / Scrum Master — DXC Technology</span></li>
+        <li><strong>Teams</strong><span>Servant-led cross-functional teams (up to 7 members)</span></li>
       </ul>
-      <div class="skills">
-        <div class="skill">
-          <span>Agile Coaching</span>
-          <div class="skill-bar" data-percentage="90%"></div>
-        </div>
-        <div class="skill">
-          <span>Scrum & SAFe</span>
-          <div class="skill-bar" data-percentage="95%"></div>
-        </div>
-        <div class="skill">
-          <span>Business Analysis</span>
-          <div class="skill-bar" data-percentage="85%"></div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
 
-<!-- Projects -->
-<section id="projects" class="fade-in">
-  <div class="container">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project">
-        <h3>Quality Analyst | Anthem Medisys - Cognizant</h3>
-        <p>Analysed software requirements, prepared test cases, executed tests, and generated reports. Ensured on-time delivery and quality assurance.</p>
-      </div>
-      <div class="project">
-        <h3>Guidewire Tester | USAA – Cognizant</h3>
-        <p>Prepared test procedures, executed tests, managed Jira stories, and performed regression, integration, and smoke testing. Achieved 20% cost reduction.</p>
-      </div>
-      <div class="project">
-        <h3>Agile Business/Quality Analyst | Assure Life – DXC Technology</h3>
-        <p>Gathered business requirements, collaborated with senior BAs and developers, implemented new functionalities, and facilitated Agile ceremonies. Delivered APIs increasing feature delivery by 40%.</p>
-      </div>
-      <div class="project">
-        <h3>Business Analyst/ Scrum Master | CyberLife - DXC Technology</h3>
-        <p>Servant-led 7-member Scrum team, introduced WIP limits, tracked metrics, removed impediments, tested APIs, and demonstrated accomplishments. Improved sprint predictability from 60% to 85%.</p>
-      </div>
+<!-- SKILLS -->
+<section id="skills" class="section container-mid fade-up">
+  <h2>Skills</h2>
+  <div class="grid skills-grid">
+    <div class="glass card">
+      <h3>Agile & Leadership</h3>
+      <ul>
+        <li>Scrum ceremonies & facilitation</li>
+        <li>Agile transformation & coaching</li>
+        <li>Team mentoring & conflict resolution</li>
+      </ul>
+    </div>
+    <div class="glass card">
+      <h3>Tools & Platforms</h3>
+      <ul>
+        <li>Jira / Confluence / Miro</li>
+        <li>ReadyAPI / Postman</li>
+        <li>Azure DevOps</li>
+      </ul>
+    </div>
+    <div class="glass card">
+      <h3>Analysis & QA</h3>
+      <ul>
+        <li>Requirement analysis & user stories</li>
+        <li>Test case design & execution</li>
+        <li>Process improvement & metrics</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<!-- Photography -->
-<section id="photography" class="fade-in">
-  <div class="container">
-    <h2>Photography</h2>
-    <div class="photo-grid">
-      <img src="photo1.jpg" class="photo" alt="Photo 1">
-      <img src="photo2.jpg" class="photo" alt="Photo 2">
-      <img src="photo3.jpg" class="photo" alt="Photo 3">
-      <img src="photo4.jpg" class="photo" alt="Photo 4">
-      <img src="photo5.jpg" class="photo" alt="Photo 5">
-      <img src="photo6.jpg" class="photo" alt="Photo 6">
-      <img src="photo7.jpg" class="photo" alt="Photo 7">
-      <img src="photo8.jpg" class="photo" alt="Photo 8">
-      <img src="photo9.jpg" class="photo" alt="Photo 9">
-      <img src="photo10.jpg" class="photo" alt="Photo 10">
+<!-- PROJECTS -->
+<section id="projects" class="section container-mid fade-up">
+  <h2>Projects & Experience</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project: Anthem Medisys -->
+    <article class="glass project-card">
+      <div class="project-head">
+        <h3>Quality Analyst — Anthem Medisys (Cognizant)</h3>
+        <time>Dec 2019 – Dec 2020</time>
+      </div>
+      <p class="muted">Responsibilities & Contribution</p>
+      <ul>
+        <li>Analysing software requirements and design; prepare clarification documents.</li>
+        <li>Prepare & review test case documents and execute tests.</li>
+        <li>Generate test reports & bug reports for stakeholders.</li>
+      </ul>
+      <p class="muted">Achievements</p>
+      <ul>
+        <li>On-time delivery and ensuring applications met predefined quality standards.</li>
+      </ul>
+    </article>
+
+    <!-- Project: Guidewire Tester -->
+    <article class="glass project-card">
+      <div class="project-head">
+        <h3>Guidewire Tester — USAA (Cognizant)</h3>
+        <time>Jan 2021 – Dec 2021</time>
+      </div>
+      <p class="muted">Responsibilities & Contribution</p>
+      <ul>
+        <li>Understand functional specs and prepare test procedures, scenarios, scripts and test data.</li>
+        <li>Prepared test scripts using swagger/postman; executed tests in ReadyAPI.</li>
+        <li>Updated Jira stories, participated in smoke/regression/integration testing and debugged issues.</li>
+      </ul>
+      <p class="muted">Achievements</p>
+      <ul>
+        <li>Contributed to on-time delivery and improved quality; implemented process improvements reducing operational cost by 20% and boosting efficiency by 15%.</li>
+      </ul>
+    </article>
+
+    <!-- Project: Assure Life - DXC -->
+    <article class="glass project-card">
+      <div class="project-head">
+        <h3>Agile Business / Quality Analyst — Assure Life (DXC Technology)</h3>
+        <time>Jan 2022 – Dec 2023</time>
+      </div>
+      <p class="muted">Project (DXC Assure Policy for Life & Wealth)</p>
+      <ul>
+        <li>Gathered business requirements; added stories under epics; created test scenarios.</li>
+        <li>Collaborated with senior BAs and developers; demonstrated features to stakeholders each sprint.</li>
+        <li>Participated in PI planning, sprint planning and retrospectives; tracked sprint health metrics.</li>
+      </ul>
+      <p class="muted">Achievements</p>
+      <ul>
+        <li>Implemented TAMRA/MEC functionality, Premium & Loan Tolerance, Anti-Fraud bank info features.</li>
+        <li>Enabled release of 8 APIs in 6 months — boosting feature delivery by 40%.</li>
+      </ul>
+    </article>
+
+    <!-- Project: CyberLife - DXC -->
+    <article class="glass project-card">
+      <div class="project-head">
+        <h3>Business Analyst / Scrum Master — CyberLife (DXC Technology)</h3>
+        <time>Jan 2024 – Present</time>
+      </div>
+      <p class="muted">Project (DXC Assure CyberLife)</p>
+      <ul>
+        <li>Servant-lead a 7-member Scrum team: PI planning, sprint planning, daily standups, demos, retrospectives.</li>
+        <li>Coached PO/stakeholders on roadmap alignment, WSJF prioritization and clear acceptance criteria.</li>
+        <li>Introduced WIP limits & Kanban swimlanes reducing cycle time by 30% in three sprints.</li>
+        <li>Tracked burndown/velocity; presented bi-weekly Agile metrics; removed 20+ impediments.</li>
+        <li>Identified automation opportunities reducing manual test effort by 20%.</li>
+      </ul>
+      <p class="muted">Achievements</p>
+      <ul>
+        <li>Improved sprint predictability from 60% to 85%; delivered 5 major releases on schedule.</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section container-mid fade-up">
+  <h2>Certifications</h2>
+  <div class="grid certifications-grid">
+    <div class="glass cert">
+      <a href="https://bcert.me/smmkvlhch" target="_blank" rel="noopener"><img src="csm-badge.png" alt="CSM badge" class="cert-img"></a>
+      <p><strong>Certified Scrum Master (CSM)</strong></p>
+    </div>
+
+    <div class="glass cert">
+      <a href="https://verify.loma.org/badge/145940DFC6A94B8BAA48DE96F088944E" target="_blank" rel="noopener"><img src="loma-badge.png" alt="LOMA FLMI Level 1" class="cert-img"></a>
+      <p><strong>FLMI Level 1 (LOMA)</strong></p>
+    </div>
+
+    <div class="glass cert">
+      <p><strong>LOMA 281</strong><br><small>Meeting Customer Needs with Insurance and Annuities (3rd Ed)</small></p>
+    </div>
+
+    <div class="glass cert">
+      <p><strong>LOMA 291</strong><br><small>Improving the Bottom Line: Insurance Company Operations (2nd Ed)</small></p>
+    </div>
+
+    <div class="glass cert">
+      <p><strong>LOMA 302</strong><br><small>The Policy Lifecycle: Insurance Administration</small></p>
     </div>
   </div>
 </section>
 
-<!-- Contact -->
-<section id="contact" class="fade-in">
-  <div class="container">
-    <h2>Contact</h2>
-    <div class="contact-card">
-      <p>Email: <a href="mailto:lokesh.somapuram@gmail.com">lokesh.somapuram@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218" target="_blank">View Profile</a></p>
-      <p>GitHub: <a href="https://github.com/Somapuram-Lokesh/lokesh-portfolio" target="_blank">View Projects</a></p>
-    </div>
+<!-- PHOTOGRAPHY -->
+<section id="photography" class="section container-mid fade-up">
+  <h2>Photography</h2>
+  <p class="muted">A small selection of nature shots I’ve taken.</p>
+
+  <div class="photo-grid">
+    <img class="photo modal-trigger" src="1701365901555.jpg" alt="Photo 1">
+    <img class="photo modal-trigger" src="1701366207237.jpg" alt="Photo 2">
+    <img class="photo modal-trigger" src="1701366449496.jpg" alt="Photo 3">
+    <img class="photo modal-trigger" src="1714659656690.jpg" alt="Photo 4">
+    <img class="photo modal-trigger" src="20240501235837_IMG_3649-01.jpeg" alt="Photo 5">
+    <img class="photo modal-trigger" src="20240503002405_IMG_3851-01.jpeg" alt="Photo 6">
+    <img class="photo modal-trigger" src="20240504015104_IMG_3954-01.jpeg" alt="Photo 7">
+    <img class="photo modal-trigger" src="IMG20240504183551-01.jpeg" alt="Photo 8">
+    <img class="photo modal-trigger" src="IMG20240504183658-01.jpeg" alt="Photo 9">
+    <img class="photo modal-trigger" src="Venkatapuram (In Between Way To Srisailam).jpg" alt="Photo 10">
   </div>
 </section>
 
-<script src="script.js"></script>
+<!-- CONTACT -->
+<section id="contact" class="section container-mid fade-up">
+  <h2>Contact</h2>
+  <div class="glass contact-card">
+    <p>Email: <a href="mailto:lokesh.somapuram@gmail.com">lokesh.somapuram@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank" rel="noopener">linkedin.com/in/somapuram-lokesh-99a29b218</a></p>
+    <p>GitHub: <a href="https://github.com/Somapuram-Lokesh" target="_blank" rel="noopener">github.com/Somapuram-Lokesh</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container-mid">
+    <small>© 2025 Lokesh Somapuram • Built with care</small>
+    <button id="topBtn" title="Go to top" aria-label="Scroll to top">↑</button>
+  </div>
+</footer>
+
+<!-- Photo Modal -->
+<div id="modal" class="modal" aria-hidden="true">
+  <span class="close" role="button" aria-label="Close">&times;</span>
+  <img class="modal-content" id="modal-img" alt="">
+</div>
+
 </body>
 </html>
