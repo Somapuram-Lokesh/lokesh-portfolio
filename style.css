@@ -1,146 +1,194 @@
-/* Global Styles */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #fff;
+    --text-color: #343a40;
+    --border-color: #dee2e6;
+    --nav-bg-color: #2c3e50;
+    --nav-text-color: rgba(255, 255, 255, 0.5);
+    --nav-text-hover-color: #fff;
+}
+
+body.dark-mode {
+    --primary-color: #17a2b8;
+    --secondary-color: #adb5bd;
+    --background-color: #212529;
+    --text-color: #f8f9fa;
+    --border-color: #495057;
+    --nav-bg-color: #343a40;
+    --nav-text-color: rgba(255, 255, 255, 0.5);
+    --nav-text-hover-color: #fff;
+}
+
 body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
-  color: #111111;
+    font-family: 'Muli', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: background-color 0.3s, color 0.3s;
+    padding-top: 54px;
 }
 
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+    transition: color 0.3s;
 }
 
-/* Navigation */
-.navbar {
-  background-color: #0a1f44;
-  color: white;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+.text-primary {
+    color: var(--primary-color) !important;
 }
 
-.navbar .logo {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 1.5rem;
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    transition: color 0.3s;
 }
 
-.navbar .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  float: right;
+a {
+    color: var(--primary-color);
+    transition: color 0.3s;
 }
 
-.navbar .nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
+a:hover,
+a:focus,
+a:active {
+    color: var(--primary-color);
 }
 
-.navbar .nav-links a:hover {
-  color: #00bfa6;
-  transition: 0.3s;
+.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
 }
 
-/* Sections */
-.section {
-  padding: 4rem 0;
+.resume-section {
+    padding: 5rem;
+    border-bottom: 1px solid var(--border-color);
+    transition: border-color 0.3s;
 }
 
-.bg-light {
-  background-color: #f9f9f9;
+.resume-section-content {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 6rem 0;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #0a1f44;
-}
-
-.hero p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  max-width: 700px;
-  margin: 0.5rem auto;
-}
-
-/* Cards */
-.card {
-  background-color: #ffffff;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
-}
-
-/* Skills Grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-}
-
-/* Photography Grid */
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-}
-
-.photo-grid img {
-  width: 100%;
-  border-radius: 10px;
-  transition: transform 0.3s;
-}
-
-.photo-grid img:hover {
-  transform: scale(1.05);
-}
-
-/* Contact Links */
-.contact-links {
-  display: flex;
-  gap: 2rem;
-}
-
-.contact-links a {
-  text-decoration: none;
-  color: #0a1f44;
-  font-weight: 600;
-  border-bottom: 2px solid transparent;
-  transition: 0.3s;
-}
-
-.contact-links a:hover {
-  border-bottom: 2px solid #00bfa6;
-  color: #00bfa6;
-}
-
-/* Footer */
-footer {
-  background-color: #0a1f44;
-  color: white;
-  text-align: center;
-  padding: 1.5rem 0;
-  margin-top: 2rem;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .navbar .nav-links {
-    flex-direction: column;
-    float: none;
-    gap: 1rem;
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 100%;
     text-align: center;
-  }
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-color);
+}
+
+.fa-ul > li {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.fa-ul > li > .fa-li {
+    left: -0.25rem;
+}
+
+.fa-li {
+    top: 0.2rem;
+    font-size: 1.25em;
+    color: var(--primary-color);
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.navbar {
+    background-color: var(--nav-bg-color);
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+    color: var(--nav-text-color);
+    transition: color 0.3s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--nav-text-hover-color);
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid rgba(255, 255, 255, .2);
+}
+
+.mode-toggle {
+    background: transparent;
+    border: none;
+    color: var(--nav-text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0;
+}
+
+.mode-toggle:hover {
+    color: var(--nav-text-hover-color);
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+    .navbar {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+    }
+    .navbar .navbar-nav {
+        flex-direction: column !important;
+    }
+    .navbar .navbar-brand {
+        display: flex;
+        margin: auto auto 0;
+    }
+    .navbar .navbar-brand .img-profile {
+        max-width: 10rem;
+        border: .5rem solid rgba(255, 255, 255, .2);
+    }
+    .navbar .mode-toggle {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 1rem;
+    }
 }
