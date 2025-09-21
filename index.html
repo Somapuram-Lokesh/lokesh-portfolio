@@ -1,152 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokesh Somapuram - Scrum Master & Agile Coach</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="profile.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <script src="script.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokesh Somapuram - Scrum Master & Agile Coach</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="profile.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
 </head>
 <body>
 
 <!-- Navbar -->
 <header>
-    <nav class="navbar">
-        <div class="logo">Lokesh Somapuram</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Experience</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <nav class="navbar">
+    <div class="logo">Lokesh Somapuram</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#photography">Photography</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
 </header>
 
 <!-- Hero Section -->
 <section id="hero">
-    <div class="hero-container">
-        <div class="hero-text">
-            <h1>Lokesh Somapuram</h1>
-            <h2>Scrum Master & Agile Coach</h2>
-            <p>Certified ScrumMaster & Agile Coach helping product teams deliver faster, improve efficiency, and drive business value.</p>
-            <a href="Lokesh_Somapuran_Resume.pdf" class="btn" target="_blank">View Resume</a>
-        </div>
-        <div class="hero-image">
-            <img src="profile.jpg" alt="Lokesh Somapuram">
-        </div>
+  <div class="hero-shapes">
+    <span class="shape shape1"></span>
+    <span class="shape shape2"></span>
+    <span class="shape shape3"></span>
+  </div>
+  <div class="hero-container">
+    <div class="hero-text animate">
+      <h1>Lokesh Somapuram</h1>
+      <h2>Scrum Master & Agile Coach</h2>
+      <p>Certified ScrumMaster & Agile Coach helping product teams deliver faster, improve efficiency, and drive business value.</p>
+      <a href="Lokesh_Somapuran_Resume.pdf" class="btn" target="_blank">View Resume</a>
     </div>
+    <div class="hero-image animate">
+      <img src="profile.jpg" alt="Lokesh Somapuram">
+    </div>
+  </div>
 </section>
 
 <!-- About Section -->
-<section id="about" class="section-light">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <p>I am a Certified ScrumMaster with 8+ years of experience leading cross-functional teams, implementing Agile frameworks, and fostering high-performing cultures. I specialize in Agile transformation and delivering measurable business outcomes in product-focused organizations.</p>
-            <ul class="highlights">
-                <li><strong>Experience:</strong> 8+ years in Agile delivery</li>
-                <li><strong>Teams Led:</strong> 5+ cross-functional product teams</li>
-                <li><strong>Certifications:</strong> CSM, FLMI Level 1 (LOMA)</li>
-            </ul>
-        </div>
+<section id="about" class="section-light fade-up">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-content glass-card">
+      <p>I have 5 years and 7 months of experience at DXC Technology as a Business/Quality Analyst. I lead Agile initiatives, facilitate Scrum teams, and drive process improvements to deliver high-quality products.</p>
+      <ul class="highlights">
+        <li><strong>Experience:</strong> 5 years 7 months in Agile delivery</li>
+        <li><strong>Teams Led:</strong> Multiple cross-functional product teams</li>
+        <li><strong>Certifications:</strong> CSM, FLMI Level 1 (LOMA), plus others from resume</li>
+      </ul>
     </div>
+  </div>
 </section>
 
 <!-- Skills Section -->
-<section id="skills">
-    <div class="container">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>Agile & Leadership</h3>
-                <ul>
-                    <li>Scrum Mastery</li>
-                    <li>Agile Transformation</li>
-                    <li>Team Facilitation</li>
-                    <li>Stakeholder Management</li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <h3>Tools & Platforms</h3>
-                <ul>
-                    <li>Jira / Confluence</li>
-                    <li>Azure DevOps / Trello</li>
-                    <li>Miro / MS Office</li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <h3>Analysis & Delivery</h3>
-                <ul>
-                    <li>Requirement Analysis</li>
-                    <li>Process Improvement</li>
-                    <li>QA & Testing Oversight</li>
-                </ul>
-            </div>
-        </div>
+<section id="skills" class="fade-up">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card glass-card">
+        <h3>Agile & Leadership</h3>
+        <ul>
+          <li>Scrum Mastery & Facilitation</li>
+          <li>Agile Transformation</li>
+          <li>Team Coaching & Mentoring</li>
+          <li>Stakeholder Collaboration</li>
+        </ul>
+      </div>
+      <div class="skill-card glass-card">
+        <h3>Tools & Platforms</h3>
+        <ul>
+          <li>Jira / Confluence</li>
+          <li>Azure DevOps / Trello</li>
+          <li>Miro / MS Office</li>
+        </ul>
+      </div>
+      <div class="skill-card glass-card">
+        <h3>Analysis & Delivery</h3>
+        <ul>
+          <li>Requirement Gathering & Analysis</li>
+          <li>Process Improvement & Optimization</li>
+          <li>QA & Testing Oversight</li>
+        </ul>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- Experience / Projects Section -->
-<section id="projects" class="section-light">
-    <div class="container">
-        <h2>Experience & Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>CyberLife Transformation</h3>
-                <p>Led a team of 6 to implement Agile for product delivery, reducing cycle time by 30%.</p>
-                <p><strong>Impact:</strong> Delivered 8 APIs in 6 months, improving feature delivery velocity by 40%.</p>
-            </div>
-            <div class="project-card">
-                <h3>Insurance Platform Upgrade</h3>
-                <p>Implemented Scrum ceremonies and Agile metrics for multi-team coordination.</p>
-                <p><strong>Impact:</strong> Increased release predictability and stakeholder satisfaction significantly.</p>
-            </div>
-            <div class="project-card">
-                <h3>Claims Automation Initiative</h3>
-                <p>Facilitated Agile adoption across 3 teams to automate claims processes.</p>
-                <p><strong>Impact:</strong> Reduced manual effort by 25% and improved processing speed.</p>
-            </div>
-        </div>
+<!-- Experience Section -->
+<section id="projects" class="section-light fade-up">
+  <div class="container">
+    <h2>Experience & Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card glass-card">
+        <h3>Business/Quality Analyst – DXC Technology</h3>
+        <p>Led Agile adoption and Scrum facilitation for multiple product teams across domains including Insurance and IT Service Management.</p>
+        <ul>
+          <li>Implemented Scrum ceremonies improving delivery efficiency by 25%</li>
+          <li>Coordinated cross-functional teams for alignment between business, development, and QA</li>
+          <li>Analyzed requirements, wrote user stories, tracked delivery metrics</li>
+          <li>Introduced process improvements reducing defect leakage and cycle time</li>
+        </ul>
+      </div>
+
+      <div class="project-card glass-card">
+        <h3>Agile Transformation Initiatives</h3>
+        <p>Facilitated Agile transformation across teams to enhance delivery predictability and quality.</p>
+        <ul>
+          <li>Trained teams on Agile principles, Scrum, and Kanban frameworks</li>
+          <li>Implemented dashboards tracking velocity, sprint progress, release predictability</li>
+          <li>Coached teams to self-organize and improve collaboration</li>
+        </ul>
+      </div>
+
     </div>
+  </div>
 </section>
 
 <!-- Certifications Section -->
-<section id="certifications">
-    <div class="container">
-        <h2>Certifications</h2>
-        <div class="certifications-grid">
-            <div class="cert-card">
-                <a href="https://bcert.me/smmkvlhch" target="_blank">
-                    <img src="csm-badge.png" alt="CSM Badge">
-                </a>
-                <p>Certified Scrum Master (CSM)</p>
-            </div>
-            <div class="cert-card">
-                <a href="https://verify.loma.org/badge/145940DFC6A94B8BAA48DE96F088944E" target="_blank">
-                    <img src="loma-badge.png" alt="FLMI Level 1 Badge">
-                </a>
-                <p>FLMI Level 1 (LOMA)</p>
-            </div>
-        </div>
+<section id="certifications" class="fade-up">
+  <div class="container">
+    <h2>Certifications</h2>
+    <div class="certifications-grid">
+      <div class="cert-card glass-card">
+        <a href="https://bcert.me/smmkvlhch" target="_blank">
+          <img src="csm-badge.png" alt="CSM Badge">
+        </a>
+        <p>Certified Scrum Master (CSM)</p>
+      </div>
+      <div class="cert-card glass-card">
+        <a href="https://verify.loma.org/badge/145940DFC6A94B8BAA48DE96F088944E" target="_blank">
+          <img src="loma-badge.png" alt="FLMI Level 1 Badge">
+        </a>
+        <p>FLMI Level 1 (LOMA)</p>
+      </div>
+      <div class="cert-card glass-card">
+        <a href="Lokesh_Somapuran_Resume.pdf" target="_blank">
+          <img src="resume-badge.png" alt="Other Certifications">
+        </a>
+        <p>Other Certifications (from Resume)</p>
+      </div>
     </div>
+  </div>
+</section>
+
+<!-- Photography Section -->
+<section id="photography" class="section-light fade-up">
+  <div class="container">
+    <h2>Photography</h2>
+    <p>Here are some of my favorite photographs:</p>
+    <div class="photo-grid">
+      <img src="photo1.jpg" alt="Photography 1" class="modal-trigger">
+      <img src="photo2.jpg" alt="Photography 2" class="modal-trigger">
+      <img src="photo3.jpg" alt="Photography 3" class="modal-trigger">
+      <img src="photo4.jpg" alt="Photography 4" class="modal-trigger">
+      <img src="photo5.jpg" alt="Photography 5" class="modal-trigger">
+      <img src="photo6.jpg" alt="Photography 6" class="modal-trigger">
+      <img src="photo7.jpg" alt="Photography 7" class="modal-trigger">
+      <img src="photo8.jpg" alt="Photography 8" class="modal-trigger">
+      <img src="photo9.jpg" alt="Photography 9" class="modal-trigger">
+      <img src="photo10.jpg" alt="Photography 10" class="modal-trigger">
+    </div>
+  </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="section-light">
-    <div class="container">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank">linkedin.com/in/somapuram-lokesh-99a29b218</a></p>
-        <p>GitHub: <a href="https://github.com/Somapuram-Lokesh" target="_blank">github.com/Somapuram-Lokesh</a></p>
-    </div>
+<section id="contact" class="section-light fade-up">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:lokesh.somapuram@gmail.com">lokesh.somapuram@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank">linkedin.com/in/somapuram-lokesh-99a29b218</a></p>
+    <p>GitHub: <a href="https://github.com/Somapuram-Lokesh" target="_blank">github.com/Somapuram-Lokesh</a></p>
+  </div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Lokesh Somapuram | Built with ❤️</p>
+  <p>&copy; 2025 Lokesh Somapuram | Built with ❤️</p>
 </footer>
+
+<!-- Photography Modal -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
 
 </body>
 </html>
