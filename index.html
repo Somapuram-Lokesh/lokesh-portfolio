@@ -1,50 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lokesh Somapuram | Scrum Master</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
 
-  <!-- Navigation -->
+  <!-- NAVBAR -->
   <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">Lokesh Somapuram</h1>
+    <div class="container navbar-inner">
+      <div class="logo">Lokesh Somapuram</div>
+
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#delivery">Delivery</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#impact">Impact</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
+      <div>
+        <button id="themeToggle" class="icon-btn">🌙</button>
+        <button id="menuToggle" class="icon-btn">☰</button>
+      </div>
     </div>
   </nav>
 
-  <!-- Hero / About -->
+  <!-- HERO / ABOUT -->
   <section id="about" class="hero">
     <div class="container">
-      <h2>Scrum Master | Agile Delivery Professional</h2>
+      <h1>Scrum Master | Agile Delivery Professional</h1>
       <p>
         Certified ScrumMaster® with 6+ years of experience driving Agile and SAFe
         delivery for product and enterprise teams. Strong expertise in PI Planning,
         capacity planning, release readiness, and continuous improvement.
       </p>
       <p>
-        I work closely with Product Owners, RTEs, Build Leads, and cross-functional
-        teams to enable predictable delivery and sustainable team performance.
+        I partner closely with Product Owners, RTEs, Build Leads, and cross-functional
+        teams to enable predictable delivery and sustainable performance.
       </p>
     </div>
   </section>
 
-  <!-- Experience -->
+  <!-- AGILE DELIVERY -->
+  <section id="delivery" class="section">
+    <div class="container">
+      <h2 class="section-title">How I Enable Agile Delivery</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>PI Planning & Draft Plans</h3>
+          <p>Facilitating realistic commitments aligned with business priorities.</p>
+        </div>
+
+        <div class="card">
+          <h3>Capacity Planning</h3>
+          <p>Balancing team capacity to ensure sustainable sprint execution.</p>
+        </div>
+
+        <div class="card">
+          <h3>Advanced Roadmaps</h3>
+          <p>Supporting roadmap alignment across product and delivery teams.</p>
+        </div>
+
+        <div class="card">
+          <h3>Release Readiness & Change Control</h3>
+          <p>Ensuring smooth, risk-managed production releases.</p>
+        </div>
+
+        <div class="card">
+          <h3>Inspect & Adapt</h3>
+          <p>Driving continuous improvement through data-driven retrospectives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
   <section id="experience" class="section">
     <div class="container">
-      <h2>Professional Experience</h2>
+      <h2 class="section-title">Professional Experience</h2>
 
       <div class="card">
         <h3>Scrum Master — DXC Technology (CyberLife)</h3>
@@ -52,24 +98,19 @@
         <ul>
           <li>Servant-led a 10-member Scrum team delivering Life & Wealth insurance products.</li>
           <li>Facilitated PI Planning, Sprint Planning, Daily Stand-ups, Reviews, and Retrospectives.</li>
-          <li>Improved sprint predictability from 60% to 85% through better backlog readiness and planning.</li>
+          <li>Improved sprint predictability from 60% to 85%.</li>
           <li>Owned capacity planning, sprint commitments, and delivery tracking.</li>
-          <li>Collaborated with Product Owner on roadmap alignment and backlog prioritization.</li>
           <li>Supported release governance, change control, and release checklists.</li>
-          <li>Worked closely with RTE, Build Lead, and PO/PM to keep delivery on track.</li>
         </ul>
       </div>
 
       <div class="card">
-        <h3>Agile Business Analyst (Scrum-Aligned Role) — DXC Technology (Assure Life)</h3>
+        <h3>Agile Business Analyst (Scrum-Aligned Role) — DXC Technology</h3>
         <p><em>Jan 2022 – Dec 2023</em></p>
         <ul>
           <li>Actively participated in PI Planning, Sprint Planning, Reviews, and Retrospectives.</li>
           <li>Supported draft planning, capacity planning, and feature prioritization.</li>
-          <li>Enabled backlog refinement and sprint readiness with Product Owners.</li>
-          <li>Tracked sprint health metrics and facilitated Inspect & Adapt sessions.</li>
-          <li>Supported roadmap updates and stakeholder demos every sprint.</li>
-          <li>Enabled delivery of 8 APIs in 6 months, increasing feature throughput by 40%.</li>
+          <li>Enabled delivery of 8 APIs in 6 months, improving throughput by 40%.</li>
         </ul>
       </div>
 
@@ -77,61 +118,55 @@
         <h3>QA & Integration Testing (Foundation) — Cognizant</h3>
         <p><em>Dec 2019 – Dec 2021</em></p>
         <ul>
-          <li>Built strong foundation in quality, requirements analysis, and release readiness.</li>
-          <li>Worked across Health and Property & Casualty Insurance domains.</li>
-          <li>Developed deep understanding of defect management and delivery risks.</li>
+          <li>Built a strong foundation in quality, release readiness, and risk management.</li>
         </ul>
       </div>
-
     </div>
   </section>
 
-  <!-- Achievements -->
-  <section id="achievements" class="section bg-light">
+  <!-- IMPACT DASHBOARD -->
+  <section id="impact" class="section">
     <div class="container">
-      <h2>Key Impact & Achievements</h2>
-      <ul>
-        <li>Improved sprint predictability from 60% to 85% through stronger planning and backlog readiness.</li>
-        <li>Reduced delivery cycle time by ~30% using effective PI Planning and Inspect & Adapt practices.</li>
-        <li>Successfully delivered 5+ major product releases on schedule.</li>
-        <li>Played a key role in PI Planning and Advanced Roadmap alignment.</li>
-        <li>Enabled capacity-based planning, reducing over-commitment and last-minute scope changes.</li>
-        <li>Facilitated Inspect & Adapt workshops leading to multiple actionable improvements.</li>
-        <li>Strengthened collaboration between Product, Engineering, QA, and Program leadership.</li>
-        <li>Recognized by management for clear communication, sprint demos, and delivery ownership.</li>
-      </ul>
-    </div>
-  </section>
+      <h2 class="section-title">Delivery Impact</h2>
 
-  <!-- Skills -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Skills & Tools</h2>
-      <div class="skills-grid">
-        <div>
-          <h3>Scrum & Agile</h3>
-          <p>Scrum, SAFe (4.5/5.0), Kanban, Agile Coaching</p>
+      <div class="metrics">
+        <div class="metric">
+          <h3>85%</h3>
+          <p>Sprint Predictability</p>
         </div>
-        <div>
-          <h3>Planning & Delivery</h3>
-          <p>PI Planning, Capacity Planning, Roadmaps, Release Management</p>
+
+        <div class="metric">
+          <h3>30%</h3>
+          <p>Cycle Time Reduction</p>
         </div>
-        <div>
-          <h3>Tools</h3>
-          <p>Jira, Azure DevOps, Agile Metrics & Dashboards</p>
-        </div>
-        <div>
-          <h3>Leadership</h3>
-          <p>Servant Leadership, Facilitation, Stakeholder Management</p>
+
+        <div class="metric">
+          <h3>5+</h3>
+          <p>On-time Releases</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Certifications -->
-  <section id="certifications" class="section bg-light">
+  <!-- SKILLS -->
+  <section id="skills" class="section">
     <div class="container">
-      <h2>Certifications</h2>
+      <h2 class="section-title">Skills & Tools</h2>
+
+      <div class="card-grid">
+        <div class="card">Scrum, SAFe, Kanban, Agile Coaching</div>
+        <div class="card">PI Planning, Capacity Planning, Roadmaps</div>
+        <div class="card">Jira, Azure DevOps, Agile Metrics</div>
+        <div class="card">Servant Leadership, Facilitation, Stakeholder Management</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+
       <ul>
         <li>Certified ScrumMaster® (CSM)</li>
         <li>Google Project Management Certificate</li>
@@ -139,6 +174,7 @@
         <li>LOMA 281, 291, 302</li>
         <li>FLMI – Level 1</li>
       </ul>
+
       <p>
         <strong>Credly:</strong>
         <a href="https://www.credly.com/users/lokesh-somapuram/badges" target="_blank">
@@ -148,10 +184,11 @@
     </div>
   </section>
 
-  <!-- Contact -->
+  <!-- CONTACT -->
   <section id="contact" class="section">
     <div class="container">
-      <h2>Contact</h2>
+      <h2 class="section-title">Contact</h2>
+
       <div class="contact-links">
         <a href="mailto:slokeshchintu5@gmail.com">Email</a>
         <a href="https://www.linkedin.com/in/somapuram-lokesh" target="_blank">LinkedIn</a>
@@ -163,5 +200,7 @@
     <p>&copy; 2025 Lokesh Somapuram</p>
   </footer>
 
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
