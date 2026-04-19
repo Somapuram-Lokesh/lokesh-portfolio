@@ -3,247 +3,448 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lokesh Somapuram | Scrum Master</title>
-
+  <title>Lokesh Somapuram | Scrum Master & Agile Delivery</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<!-- ================= NAVBAR ================= -->
-<nav class="navbar">
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
   <div class="container navbar-inner">
-    <div class="logo">Lokesh Somapuram</div>
-
-    <ul class="nav-links">
+    <div class="logo">
+      <span class="logo-first">Lokesh</span><span class="logo-last"> Somapuram</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
       <li><a href="#about">About</a></li>
       <li><a href="#delivery">Delivery</a></li>
-      <li><a href="#projects">Products</a></li>
+      <li><a href="#projects">Experience</a></li>
       <li><a href="#impact">Impact</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#certifications">Certs</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-
-    <div>
-      <button id="themeToggle" class="icon-btn">🌙</button>
-      <button id="menuToggle" class="icon-btn">☰</button>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" title="Toggle theme">🌙</button>
+      <button id="menuToggle" class="icon-btn" title="Menu">☰</button>
     </div>
   </div>
 </nav>
 
-<!-- ================= HERO ================= -->
-<section id="about" class="hero reveal">
-  <div class="container">
-    <h1>Scrum Master & Agile Delivery Professional</h1>
-    <p>
-      Certified ScrumMaster® with 6+ years of experience delivering enterprise and
-      product platforms across Insurance & Technology domains. Specialized in
-      PI Planning, Advanced Roadmaps, Release Governance, and Continuous Improvement.
-    </p>
-    <p>
-      Certified ScrumMaster® (CSM) and aspiring Agile Coach with 6 years of progressive 
-      experience transitioning from Quality Assurance → Business Analysis → Scrum Master, 
-      delivering high-impact Agile solutions across insurance and technology domains.
-    </p>
-     <p>
-      I began my career in QA, developing a deep understanding of software quality and testing frameworks.
-      As a Business Analyst, I expanded into requirements engineering, backlog refinement, 
-      and stakeholder collaboration, which gave me a strong foundation in translating 
-      business needs into functional value.
-    </p>
-    <p>
-      Today, as a Scrum Master at DXC Technology, I lead a 10-member Agile team within 
-      a SAFe Agile Release Train (ART), facilitating PI Planning, Sprint ceremonies,
-      and Agile maturity workshops. I partner closely with RTEs and Product Owners 
-      on Advanced Roadmaps, capacity planning, and release governance, ensuring predictable, 
-      high-quality product delivery.
-
-      My focus is on empowering teams to deliver measurable value through servant leadership, 
-      data-driven decision making, and continuous improvement. I’ve improved sprint predictability 
-      from 60% to 85%, reduced cycle time by 30%, and helped deliver five major product releases 
-      on schedule during CyberLife’s cloud migration.
-    </p>
+<!-- HERO -->
+<section id="about" class="hero">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-text reveal">
+      <div class="hero-badge">📍 Open to Senior Agile / SAFe Roles · Hyderabad &amp; Remote</div>
+      <h1>Scrum Master &amp;<br><span class="hero-accent">Agile Delivery</span> Expert</h1>
+      <p class="hero-subtitle">
+        CSM-certified Agile leader with <strong>6+ years</strong> driving predictable delivery across Insurance &amp; Technology.
+        Specialized in PI Planning, Advanced Roadmaps, Release Governance, and Continuous Improvement.
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-num">85%</span>
+          <span class="stat-label">Sprint Predictability</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-num">30%</span>
+          <span class="stat-label">Cycle Time Reduced</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Major Releases</span>
+        </div>
+      </div>
+      <div class="hero-ctas">
+        <a href="Lokesh Somapuram SM.pdf" download class="btn btn-primary">⬇ Download Resume</a>
+        <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank" class="btn btn-outline">🔗 LinkedIn</a>
+        <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank" class="btn btn-ghost">🏅 Credentials</a>
+      </div>
+    </div>
+    <div class="hero-image reveal reveal-delay">
+      <div class="profile-ring">
+        <img src="profile.jpg" alt="Lokesh Somapuram - Scrum Master" class="profile-img" />
+      </div>
+      <div class="profile-badge csm-badge">CSM®</div>
+      <div class="profile-badge safe-badge">SAFe</div>
+    </div>
   </div>
 </section>
 
-<!-- ================= DELIVERY ================= -->
+<!-- DELIVERY -->
 <section id="delivery" class="section bg-alt reveal">
   <div class="container">
-    <h2 class="section-title">How I Enable Agile Delivery</h2>
-
+    <div class="section-header">
+      <span class="section-tag">Core Competencies</span>
+      <h2 class="section-title">How I Enable Agile Delivery</h2>
+      <p class="section-sub">From PI Planning to Inspect &amp; Adapt — driving predictable, high-quality delivery.</p>
+    </div>
     <div class="card-grid">
-      <div class="card slide-up">
-        <h3>PI Planning & Draft Plans</h3>
-        <p>Prepared draft plans, aligned capacity, managed dependencies, and enabled realistic PI commitments.</p>
+      <div class="card delivery-card slide-up">
+        <div class="card-icon">📋</div>
+        <h3>PI Planning &amp; Draft Plans</h3>
+        <p>Orchestrated large-scale PI Planning for distributed teams. Aligned capacity, managed cross-team dependencies, and secured realistic 10-week delivery commitments.</p>
       </div>
-
-      <div class="card slide-up">
+      <div class="card delivery-card slide-up" style="animation-delay:0.1s">
+        <div class="card-icon">⚖️</div>
         <h3>Capacity Planning</h3>
-        <p>Balanced velocity, team availability, and scope to prevent over-commitment and burnout.</p>
+        <p>Used historical velocity and team availability to build accurate sprint forecasts — increasing sprint commitment accuracy by <strong>25%</strong>.</p>
       </div>
-
-      <div class="card slide-up">
+      <div class="card delivery-card slide-up" style="animation-delay:0.2s">
+        <div class="card-icon">🗺️</div>
         <h3>Advanced Roadmaps</h3>
-        <p>Partnered with PO & RTE to maintain roadmap visibility and program-level forecasting.</p>
+        <p>Leveraged Jira Advanced Roadmaps for real-time cross-team dependency visibility and what-if impact analysis for POs and program stakeholders.</p>
       </div>
-
-      <div class="card slide-up">
+      <div class="card delivery-card slide-up" style="animation-delay:0.3s">
+        <div class="card-icon">🚀</div>
         <h3>Release Readiness</h3>
-        <p>Owned release checklists, change control, governance, and release calendars.</p>
+        <p>Owned release checklists, change control governance, and LOMA compliance for CyberLife cloud migrations — delivering <strong>5 on-schedule releases</strong>.</p>
       </div>
-
-      <div class="card slide-up">
-        <h3>Inspect & Adapt</h3>
-        <p>Led retrospectives and I&A workshops using velocity, cycle time, and predictability metrics.</p>
+      <div class="card delivery-card slide-up" style="animation-delay:0.4s">
+        <div class="card-icon">🔁</div>
+        <h3>Inspect &amp; Adapt</h3>
+        <p>Facilitated I&amp;A workshops that identified systemic bottlenecks and drove a <strong>30% reduction</strong> in cycle time across 3 consecutive PIs.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= PRODUCTS / PROJECTS ================= -->
+<!-- EXPERIENCE -->
 <section id="projects" class="section reveal">
   <div class="container">
-    <h2 class="section-title">Product & Project Experience</h2>
+    <div class="section-header">
+      <span class="section-tag">Career Timeline</span>
+      <h2 class="section-title">Product &amp; Project Experience</h2>
+      <p class="section-sub">6+ years across Life &amp; Wealth, Health, and P&amp;C Insurance platforms.</p>
+    </div>
+    <div class="experience-stack">
 
-    <div class="card-grid">
-      <div class="card">
-        <h3>DXC Technology - Assure CyberLife (Life & Wealth)</h3>
-        <p>
-          Product platform for issuing and maintaining Life & Wealth insurance policies
-          with online and batch systems.
-        </p>
-        <ul>
-          <li>Led Scrum delivery for cloud-migration initiatives</li>
-          <li>Enabled 5 major on-schedule releases</li>
-          <li>Managed dependencies across distributed teams</li>
-          <li>Improved sprint predictability from 60% → 85%</li>
-          <li>Facilitated Agile maturity workshops on Definition of Done, DevOps adoption, and continuous improvement to elevate team agility and performance</li>
-          <li>Demonstrated key sprint outcomes and value increments to stakeholders at every sprint review, reinforcing product transparency</li>
-          <li>Tracked and reported Agile metrics (velocity, burndown, predictability) via bi-weekly dashboards to leadership, enhancing transparency and data-driven decision-making</li>
-          <li>Collaborated with Product Owner on backlog grooming and feature prioritization based on business value and ROI, aligning releases to customer needs and product vision.</li>
+      <div class="exp-card card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-tags">
+              <span class="tag tag-blue">Life &amp; Wealth Insurance</span>
+              <span class="tag tag-green">SAFe ART</span>
+              <span class="tag tag-purple">Cloud Migration</span>
+            </div>
+            <h3>Scrum Master — DXC Technology</h3>
+            <p class="exp-product">DXC Assure CyberLife · Policy Administration Platform</p>
+          </div>
+          <div class="exp-date">Jan 2024 – Present</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>🎯 Improved sprint predictability from <strong>60% → 85%</strong> through data-driven capacity planning and proactive dependency resolution.</li>
+          <li>🚀 Delivered <strong>5 major product releases on schedule</strong> during CyberLife's cloud migration to modern infrastructure.</li>
+          <li>⏱️ Facilitated Inspect &amp; Adapt workshops achieving a <strong>30% reduction in cycle time</strong> across 3 consecutive PIs.</li>
+          <li>📊 Maintained bi-weekly Agile metrics dashboards (velocity, burndown, predictability) shared with leadership for data-driven decision-making.</li>
+          <li>🔗 Managed cross-team dependencies via Jira Advanced Roadmaps — enabling real-time program visibility and stakeholder what-if analysis.</li>
+          <li>✅ Ensured <strong>100% LOMA regulatory compliance</strong> through structured change control and release governance checklists.</li>
         </ul>
       </div>
 
-      <div class="card">
-        <h3>DXC Technology - Assure Policy (Life & Annuity)</h3>
-        <p>
-          Component-based policy administration system supporting multiple product variants.
-        </p>
-        <ul>
-          <li>Delivered 8 APIs in 6 months</li>
-          <li>Enabled TAMRA-MEC, Premium & Loan Tolerance features</li>
-          <li>Collaborated on roadmap & feature prioritization</li>
-          <li>Adding required stories under planned epic based on requirements of the epic</li>
-          <li>Tracked sprint health metrics and facilitated root-cause analysis in retrospectives, spawning 12 improvement action</li>
+      <div class="exp-card card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-tags">
+              <span class="tag tag-blue">Life &amp; Annuity</span>
+              <span class="tag tag-green">SAFe</span>
+              <span class="tag tag-orange">API Delivery</span>
+            </div>
+            <h3>Agile Business Analyst — DXC Technology</h3>
+            <p class="exp-product">DXC Assure Policy · Component-Based Insurance Platform</p>
+          </div>
+          <div class="exp-date">Jan 2022 – Dec 2023</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>⚡ Enabled delivery of <strong>8 APIs in 6 months</strong>, increasing team feature throughput by <strong>40%</strong>.</li>
+          <li>📋 Actively participated in PI Planning, sprint ceremonies, and retrospectives in a full SAFe Agile Release Train environment.</li>
+          <li>🔍 Supported PO in backlog refinement, WSJF-based feature prioritization, and capacity planning across multi-team ARTs.</li>
+          <li>📝 Authored internal White Papers on Agile–Insurance integration, standardizing Scrum practices across 3 global workstreams.</li>
+          <li>📈 Facilitated root-cause analysis in retrospectives, generating <strong>12 measurable improvement action items</strong> across PIs.</li>
         </ul>
       </div>
 
-      <div class="card">
-        <h3>Cognizant - USAA & Anthem Medisys (Insurance Platforms)</h3>
-        <ul>
-          <li>Guidewire integration & API testing</li>
-          <li>End-to-end STLC & UAT coordination</li>
-          <li>Jira story tracking & sprint reporting</li>
-          <li>Doing requirement Preparing test scripts based on swagger details and postman collection</li>
-          <li>Understanding the Functional specs</li>
+      <div class="exp-card card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-tags">
+              <span class="tag tag-teal">Health Insurance</span>
+              <span class="tag tag-orange">P&amp;C Insurance</span>
+              <span class="tag tag-gray">Guidewire</span>
+            </div>
+            <h3>Quality Analyst / Integration Tester — Cognizant</h3>
+            <p class="exp-product">Anthem Medisys (Health) · USAA (P&amp;C) Insurance Platforms</p>
+          </div>
+          <div class="exp-date">Dec 2019 – Dec 2021</div>
+        </div>
+        <ul class="exp-bullets">
+          <li>🧪 Performed end-to-end STLC — test planning, execution, regression, UAT coordination, and Guidewire integration testing.</li>
+          <li>🔌 Conducted API testing on core insurance microservices using Postman, ReadyAPI, and Swagger.</li>
+          <li>💡 Identified process improvements reducing operational costs by <strong>20%</strong> and increasing team efficiency by <strong>15%</strong>.</li>
+          <li>🗂️ Maintained Jira story tracking and sprint reporting, providing delivery transparency to Agile teams.</li>
         </ul>
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- ================= IMPACT ================= -->
-<section id="impact" class="section bg-gradient reveal">
+<!-- IMPACT -->
+<section id="impact" class="section impact-section reveal">
   <div class="container">
-    <h2 class="section-title">Delivery Impact</h2>
-
+    <div class="section-header light">
+      <span class="section-tag light-tag">By The Numbers</span>
+      <h2 class="section-title">Delivery Impact</h2>
+      <p class="section-sub">Measurable outcomes across 6+ years of Agile delivery.</p>
+    </div>
     <div class="metrics">
-      <div class="metric pulse">
-        <h3>85%</h3>
-        <p>Sprint Predictability</p>
+      <div class="metric-card">
+        <div class="metric-icon">📈</div>
+        <div class="metric-num" data-target="85" data-suffix="%">0%</div>
+        <div class="metric-label">Sprint Predictability</div>
+        <div class="metric-sub">Improved from 60%</div>
       </div>
-      <div class="metric pulse">
-        <h3>30%</h3>
-        <p>Cycle Time Reduction</p>
+      <div class="metric-card">
+        <div class="metric-icon">⏱️</div>
+        <div class="metric-num" data-target="30" data-suffix="%">0%</div>
+        <div class="metric-label">Cycle Time Reduced</div>
+        <div class="metric-sub">Across 3 PIs</div>
       </div>
-      <div class="metric pulse">
-        <h3>5+</h3>
-        <p>Major Releases</p>
+      <div class="metric-card">
+        <div class="metric-icon">🚀</div>
+        <div class="metric-num" data-target="5" data-suffix="+">0+</div>
+        <div class="metric-label">Major Releases</div>
+        <div class="metric-sub">All on schedule</div>
       </div>
-      <div class="metric pulse">
-        <h3>40%</h3>
-        <p>Feature Throughput Increase</p>
+      <div class="metric-card">
+        <div class="metric-icon">⚡</div>
+        <div class="metric-num" data-target="40" data-suffix="%">0%</div>
+        <div class="metric-label">Feature Throughput</div>
+        <div class="metric-sub">8 APIs in 6 months</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-icon">✅</div>
+        <div class="metric-num" data-target="25" data-suffix="%">0%</div>
+        <div class="metric-label">Commitment Accuracy</div>
+        <div class="metric-sub">Via capacity planning</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-icon">🔧</div>
+        <div class="metric-num" data-target="6" data-suffix="+">0+</div>
+        <div class="metric-label">Years Experience</div>
+        <div class="metric-sub">QA → BA → SM</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= SKILLS ================= -->
+<!-- SKILLS -->
 <section id="skills" class="section reveal">
   <div class="container">
-    <h2 class="section-title">Skills & Tools</h2>
-
-    <div class="skills-animated">
-      <span>Scrum</span>
-      <span>SAFe 4.5 / 5.0</span>
-      <span>JIRA</span>
-      <span>Azure DevOps</span>
-      <span>Power BI</span>
-      <span>Figma</span>
-      <span>Balsamiq</span>
-      <span>Business Analysis</span>
-      <span>Release Management</span>
-      <span>Capacity Planning</span>
-      <span>Change Control</span>
-      <span>API Testing</span>
-      <span>Postman</span>
-      <span>ReadyAPI</span>
-      <span>Agile</span>
-      <span>CI/CD Fundamentals</span>
-      <span>AI-Assisted Delivery</span>
+    <div class="section-header">
+      <span class="section-tag">Toolkit</span>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <p class="section-sub">Grouped by capability for clarity at a glance.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group card">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">🔄</span>
+          <h3>Agile &amp; Frameworks</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag primary-tag">Scrum</span>
+          <span class="skill-tag primary-tag">SAFe 4.5 / 5.0</span>
+          <span class="skill-tag primary-tag">Kanban</span>
+          <span class="skill-tag primary-tag">PI Planning</span>
+          <span class="skill-tag primary-tag">Inspect &amp; Adapt</span>
+          <span class="skill-tag primary-tag">Agile Coaching</span>
+          <span class="skill-tag primary-tag">WSJF Prioritization</span>
+        </div>
+      </div>
+      <div class="skill-group card">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">🛠️</span>
+          <h3>Tools &amp; Platforms</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag tool-tag">Jira</span>
+          <span class="skill-tag tool-tag">Jira Advanced Roadmaps</span>
+          <span class="skill-tag tool-tag">Azure DevOps</span>
+          <span class="skill-tag tool-tag">MS Project</span>
+          <span class="skill-tag tool-tag">Figma</span>
+          <span class="skill-tag tool-tag">Balsamiq</span>
+          <span class="skill-tag tool-tag">Power BI</span>
+          <span class="skill-tag tool-tag">Postman / ReadyAPI</span>
+        </div>
+      </div>
+      <div class="skill-group card">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">📦</span>
+          <h3>Delivery &amp; Governance</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag governance-tag">Capacity Planning</span>
+          <span class="skill-tag governance-tag">Release Management</span>
+          <span class="skill-tag governance-tag">Change Control</span>
+          <span class="skill-tag governance-tag">LOMA Compliance</span>
+          <span class="skill-tag governance-tag">CI/CD Fundamentals</span>
+          <span class="skill-tag governance-tag">Agile Metrics &amp; Reporting</span>
+        </div>
+      </div>
+      <div class="skill-group card">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">🏦</span>
+          <h3>Domain Expertise</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag domain-tag">Life &amp; Wealth Insurance</span>
+          <span class="skill-tag domain-tag">Health Insurance</span>
+          <span class="skill-tag domain-tag">P&amp;C Insurance</span>
+          <span class="skill-tag domain-tag">Policy Administration</span>
+          <span class="skill-tag domain-tag">Business Analysis</span>
+          <span class="skill-tag domain-tag">AI-Assisted Delivery</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ================= CERTIFICATIONS ================= -->
+<!-- CERTIFICATIONS -->
 <section id="certifications" class="section bg-alt reveal">
   <div class="container">
-    <h2 class="section-title">Certifications</h2>
-    <ul>
-      <li>Certified ScrumMaster® (CSM)</li>
-      <li>Google Project Management</li>
-      <li>Agile with Atlassian Jira</li>
-      <li>LOMA 281, 291, 302</li>
-      <li>FLMI – Level 1</li>
-    </ul>
-    <p>
-      <strong>Credly Skills:</strong>
-      <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank">
-        View full skill set
-      </a>
-    </p>
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="section reveal">
-  <div class="container">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-links">
-      <a href="mailto:slokeshchintu5@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/somapuram-lokesh" target="_blank">LinkedIn</a>
+    <div class="section-header">
+      <span class="section-tag">Credentials</span>
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-sub">Verified credentials across Agile, Project Management, and Insurance domains.</p>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card card">
+        <div class="cert-icon">🏅</div>
+        <div class="cert-body">
+          <h3>Certified ScrumMaster® (CSM)</h3>
+          <p class="cert-issuer">Scrum Alliance</p>
+          <p class="cert-note">Industry-standard Scrum certification validating advanced facilitation and team coaching skills.</p>
+        </div>
+        <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank" class="cert-verify">Verify ↗</a>
+      </div>
+      <div class="cert-card card">
+        <div class="cert-icon">📊</div>
+        <div class="cert-body">
+          <h3>Google Project Management Certificate</h3>
+          <p class="cert-issuer">Google</p>
+          <p class="cert-note">Comprehensive PM training covering risk management, stakeholder communication, and delivery lifecycle.</p>
+        </div>
+        <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank" class="cert-verify">Verify ↗</a>
+      </div>
+      <div class="cert-card card">
+        <div class="cert-icon">⚙️</div>
+        <div class="cert-body">
+          <h3>Agile with Atlassian Jira</h3>
+          <p class="cert-issuer">Atlassian</p>
+          <p class="cert-note">Advanced Jira usage including Advanced Roadmaps, board configuration, and Agile reporting dashboards.</p>
+        </div>
+        <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank" class="cert-verify">Verify ↗</a>
+      </div>
+      <div class="cert-card card">
+        <div class="cert-icon">🏛️</div>
+        <div class="cert-body">
+          <h3>LOMA 281, 291, 302</h3>
+          <p class="cert-issuer">LOMA — Insurance Industry Standards Body</p>
+          <p class="cert-note">Insurance domain certifications covering life insurance operations, compliance, and policy administration.</p>
+        </div>
+        <span class="cert-verify no-link">Insurance Domain</span>
+      </div>
+      <div class="cert-card card">
+        <div class="cert-icon">🎓</div>
+        <div class="cert-body">
+          <h3>FLMI — Fellow, Life Management Institute (Level 1)</h3>
+          <p class="cert-issuer">LOMA</p>
+          <p class="cert-note">Prestigious insurance designation demonstrating expertise in life insurance products and financial services.</p>
+        </div>
+        <span class="cert-verify no-link">In Progress</span>
+      </div>
+      <div class="cert-card card">
+        <div class="cert-icon">💼</div>
+        <div class="cert-body">
+          <h3>Career Essentials in Business Analysis</h3>
+          <p class="cert-issuer">Microsoft &amp; LinkedIn</p>
+          <p class="cert-note">Business analysis fundamentals including requirements gathering, stakeholder management, and process modeling.</p>
+        </div>
+        <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank" class="cert-verify">Verify ↗</a>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- CONTACT -->
+<section id="contact" class="section reveal">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Open to senior Scrum Master, RTE, and Agile Coach opportunities. Let's talk.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card card">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <p class="contact-label">Email</p>
+          <a href="mailto:slokeshchintu5@gmail.com" class="contact-value">slokeshchintu5@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-card card">
+        <div class="contact-icon">📞</div>
+        <div>
+          <p class="contact-label">Phone</p>
+          <a href="tel:+916300279755" class="contact-value">+91 6300 279 755</a>
+        </div>
+      </div>
+      <div class="contact-card card">
+        <div class="contact-icon">🔗</div>
+        <div>
+          <p class="contact-label">LinkedIn</p>
+          <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank" class="contact-value">somapuram-lokesh</a>
+        </div>
+      </div>
+      <div class="contact-card card">
+        <div class="contact-icon">📍</div>
+        <div>
+          <p class="contact-label">Location</p>
+          <span class="contact-value">Kurnool / Hyderabad, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-cta">
+      <a href="Lokesh Somapuram SM.pdf" download class="btn btn-primary btn-large">⬇ Download Full Resume (PDF)</a>
+      <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank" class="btn btn-outline btn-large">🏅 View Credentials on Credly</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <p>&copy; 2025 Lokesh Somapuram</p>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="footer-name"><span class="logo-first">Lokesh</span><span class="logo-last"> Somapuram</span></div>
+      <p class="footer-tagline">Scrum Master · Agile Delivery · SAFe · Insurance Domain</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:slokeshchintu5@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/somapuram-lokesh-99a29b218/" target="_blank">LinkedIn</a>
+      <a href="https://www.credly.com/users/lokesh-somapuram/skills" target="_blank">Credly</a>
+      <a href="blog.html">Blog</a>
+    </div>
+    <p class="footer-copy">© 2025 Lokesh Somapuram · Built with purpose, delivered with precision.</p>
+  </div>
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
-
